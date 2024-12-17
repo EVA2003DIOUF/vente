@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVALUNA Parfumerie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Nos Parfums</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil">
+        <div class="hero">
+            <h1>Bienvenue chez EVALUNA Parfumerie</h1>
+            <p>Découvrez nos parfums de luxe pour toutes les occasions.</p>
+        </div>
+    </section>
+
+    <!-- Section Produits -->
+    <section id="produits">
+        <h2>Nos Parfums</h2>
+        <div class="produits-container">
+            <div class="produit">
+                <img src="parfum1.jpg" alt="Parfum 1">
+                <h3>Parfum Prestige</h3>
+                <p>Un parfum sophistiqué pour des moments exceptionnels.</p>
+            </div>
+            <div class="produit">
+                <img src="parfum2.jpg" alt="Parfum 2">
+                <h3>Parfum Élégance</h3>
+                <p>Un parfum subtil et raffiné, pour chaque jour.</p>
+            </div>
+            <div class="produit">
+                <img src="parfum3.jpg" alt="Parfum 3">
+                <h3>Parfum Saphir</h3>
+                <p>Un parfum frais et dynamique pour les esprits jeunes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form id="formContact">
+            <input type="text" id="nom" name="nom" placeholder="Votre Nom" required>
+            <input type="email" id="email" name="email" placeholder="Votre Email" required>
+            <textarea id="message" name="message" placeholder="Votre Message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <div id="confirmationMessage"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EVALUNA Parfumerie. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
